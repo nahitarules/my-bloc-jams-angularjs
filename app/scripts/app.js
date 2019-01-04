@@ -15,7 +15,13 @@
          .state('album', {
              url: '/album',
              templateUrl: '/templates/album.html'
+         })
+
+         .state('collection', {
+             url: '/collection',
+             templateUrl: '/templates/collection.html'
          });
+
      }
 
      angular
