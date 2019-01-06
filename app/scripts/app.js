@@ -10,19 +10,19 @@
          .state('landing', {
              url: '/',
              controller: 'LandingCtrl as landing',
-             templateUrl: '/templates/landing.html'
+             templateUrl: 'templates/landing.html'
          })
 
          .state('album', {
              url: '/album',
              controller: 'AlbumCtrl as album',
-             templateUrl: '/templates/album.html'
+             templateUrl: 'templates/album.html'
          })
 
          .state('collection', {
              url: '/collection',
              controller: 'CollectionCtrl as collection',
-             templateUrl: '/templates/collection.html'
+             templateUrl: 'templates/collection.html'
          });
 
      }
